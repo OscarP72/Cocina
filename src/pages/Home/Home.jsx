@@ -1,6 +1,8 @@
 import "./Home.css";
 
 const Home =()=> {
-    return <main></main>
+    return <main>
+        Home
+    </main>
 };
 export default Home;
