@@ -5,11 +5,19 @@ export const links = [
 
     },
     {
-        name: "Juegos",
-        link: "/juegos",
+        name: "Alimentos",
+        link: "/alimentos",
     },
     {
-        name: "About",
-        link: "/about",
+        name: "AnalisisNutricional",
+        link: "/analisisNutricional",
     },
+    {
+        name: "Recetas",
+        link: "/recetas",
+    },
+    {
+        name: "NotFound",
+        link: "/notFound",
+    }
 ];

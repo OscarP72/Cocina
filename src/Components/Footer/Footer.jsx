@@ -1,8 +1,8 @@
 import "./Footer.css";
 
 const Footer =() =>{
-    return <Footer>
+    return <footer>
         <p> OPA © 2023</p>
-    </Footer>
+        </footer>
 }
 export default Footer;
