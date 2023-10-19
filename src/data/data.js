@@ -16,8 +16,5 @@ export const links = [
         name: "Recetas",
         link: "/recetas",
     },
-    {
-        name: "NotFound",
-        link: "/notFound",
-    }
+   
 ];
