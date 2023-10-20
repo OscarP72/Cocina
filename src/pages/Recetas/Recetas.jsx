@@ -20,25 +20,8 @@ const Recetas = () => {
     getItems();
   }, []);
 
-  return(
-    <main className="recetario">
-        <ul className="galeria">
-            {items.map((item)=>(
-                <li>
-                    <img src={item.img} alt={item.title}/>
-                    <h4>{item.title}</h4>
-                    <h4>{item.ingr}</h4>
-                    <h4>{item.prep}</h4>
-                </li>
-            ))}
-
-
-        </ul>
-
-    </main>
-  )
-
-  /*return (
+ 
+  return (
     <main className="recetario">
       <ul className="galeria">
         {items.map((item) => (
@@ -51,6 +34,6 @@ const Recetas = () => {
         ))}
       </ul>
     </main>
-  );*/
+  );
 };
 export default Recetas;
