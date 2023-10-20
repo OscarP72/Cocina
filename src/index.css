@@ -23,6 +23,3 @@ a {
 a:hover .active{
     color: var(--secondary);
 }
-main{
-    min-height: calc(100vh - 150px - 80px)
-};

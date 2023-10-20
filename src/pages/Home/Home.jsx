@@ -3,6 +3,7 @@ import fondohome from "../../assets/fondohome.jpg";
 
 const Home =()=> {
     return <main>
+        
         <img src={fondohome}/>
     </main>
 };
