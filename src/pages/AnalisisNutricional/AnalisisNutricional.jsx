@@ -1,7 +1,7 @@
 import "./AnalisisNutricional.css";
 
 const AnalisisNutricional = () =>{
-    return <main>AnalisisNutricional</main>
+    return <main>Analisis Nutricional</main>
 }
 
 export default AnalisisNutricional;

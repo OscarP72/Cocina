@@ -9,7 +9,7 @@ export const links = [
         link: "/alimentos",
     },
     {
-        name: "AnalisisNutricional",
+        name: "Analisis Nutricional",
         link: "/analisisNutricional",
     },
     {
