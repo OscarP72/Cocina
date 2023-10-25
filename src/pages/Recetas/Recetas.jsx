@@ -34,7 +34,7 @@ const Recetas = () => {
 
   return (
     <main className="recetario">
-      {selectedRecipe ? ( // Si hay una receta seleccionada, muestra solo su imagen y los ingredientes
+      {selectedRecipe ? ( 
         <div className="imagen-sola">
           <img
             src={selectedRecipe.image}
@@ -52,7 +52,7 @@ const Recetas = () => {
               <img
                 src={item.recipe.image}
                 alt={item.recipe.label}
-                onClick={() => setSelectedRecipe(item.recipe)} // Establece la receta seleccionada al hacer clic
+                onClick={() => setSelectedRecipe(item.recipe)} 
                 className="imagen-receta"
               />
               <h4>{item.recipe.label}</h4>
